@@ -17,13 +17,13 @@
     <header>
       <div class="container">
         <div id="brand">
-          <h1><span class="highlight">Ahsoka's</span> Page</h1>
+          <h1>Ahsoka's Page</h1>
         </div>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li class="current"><a href="about.html">About</a></li>
-            <li><a href="service.html">Services</a></li>
+            <li><a href="service.html">Photo Gallery</a></li>
           </ul>
         </nav>
       </div>
@@ -31,10 +31,15 @@
 
     <section id="newsletter">
       <div class="container">
-        <h1>Subscribe To Our Newsletter</h1>
+        <h1>Give Her a Treat</h1>
         <form>
-          <input type="email" placeholder="Enter Email..." />
-          <button type="submit" class="button_1">Subscribe</button>
+          <button type="button" class="button_1" onclick="addTreat()">
+            Click to Give Her a Treat
+          </button>
+          <button disabled="disabled" class="button_1">
+            Treats Given:
+            <span id="t"></span>
+          </button>
         </form>
       </div>
     </section>
@@ -42,42 +47,62 @@
     <section id="main">
       <div class="container">
         <article id="main-col">
-          <h1 class="page-title">About Us</h1>
+          <h1 class="page-title">About Her</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            ad corrupti adipisci quo quam, veritatis doloremque ipsum autem
-            ullam incidunt blanditiis quia possimus, nulla eveniet maxime optio
-            in molestiae sed beatae deleniti aliquam dolor, error non libero?
-            Soluta vel dolore aliquid ab asperiores, earum voluptatem ad animi
-            nulla. Magnam, natus! Reprehenderit beatae necessitatibus ab quidem
-            animi eaque deleniti molestias laboriosam.
+            Ahsoka lived on the streets as a puppy and grew up in a harsh
+            environment. The Pfeiffer family adopted her in 2010 when she was 1
+            year old. Her original name was Wendy, and we though Mandy would be
+            a good name instead. However, the three children in the Pfeiffer
+            family were heavily invested in the TV show Star Wars The Clone Wars
+            at the time, and decided Ahsoka, a female padawan in the show, would
+            be a more unique and fun name. In the TV show, Ahsoka's lightsaber
+            is green and her cloths feature lots of purple, and for that reason
+            Ahsoka has a purple collar and green leash.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, hic
-            a quam officiis consectetur veniam illo explicabo aliquid dicta
-            accusamus placeat soluta facilis necessitatibus nemo dolor pariatur.
-            Accusamus nesciunt totam commodi quos officiis omnis delectus ad
-            praesentium debitis! Doloribus voluptas eaque eius? Molestiae
-            maiores nulla consectetur nesciunt necessitatibus ipsam odit tempore
-            illum quam quibusdam! Omnis saepe doloremque ut quo esse?
+            Despite the comedic naming and dress style, Ahsoka still acts like a
+            street dog in many aspects. She engorges as much food as she can
+            when presented the opportunity. She jumps on counters to steal food
+            frequently, and she also likes to run away from her family to sniff
+            exotic smells such as poop. Despite all of this, the Pfeiffers still
+            love her and tend to her needs. One of her best qualities is that
+            she is very defensive of the family, and will protect it at any
+            cost.
+          </p>
+          <p>
+            Her favorite activities are walking, running, sleeping, howling,
+            cuddling, and eating. She especially loves her green treat ball, and
+            when she rolls it around, treats fall out of it! One of Ahsoka's
+            best friends, Bailey, is on the right. Bailey is a young, female
+            lab. Ahsoka usually doesn't get along with other girls, but Bailey
+            is young enough for her to be friendly.
           </p>
         </article>
 
         <aside id="sidebar">
           <div class="dark">
-            <h3>What We Do</h3>
+            <h3>Bailey</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-              corrupti quo, doloremque aperiam vel accusantium. Dolorum magnam
-              facere natus. Maxime?
+              Below is a video of Bailey who is owned by the Tomecheks,
+              ancestors of the Pfeiffers. Bailey is much younger and leans on
+              Ahsoka's guidance during long walks.
             </p>
           </div>
+        </aside>
+
+        <aside id="sidebar">
+          <video width="340" height="auto" controls>
+            <source src="./image/QAGO2741.MOV" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </aside>
       </div>
     </section>
 
     <footer>
-      <p>Acme Web Design, Copyright &copy; 2019</p>
+      <p>Part of the Pfeiffer family, Copyright &copy; 2019</p>
     </footer>
   </body>
 </html>
+
+<script src="index.js"></script>

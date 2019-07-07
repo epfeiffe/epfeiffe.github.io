@@ -26,7 +26,7 @@ ul {
   border: 0;
   padding-left: 20px;
   padding-right: 20px;
-  color: #fff;
+  color: #35424a;
 }
 
 .dark {
@@ -78,6 +78,11 @@ header .current a {
   font-weight: bold;
 }
 
+.collar {
+  color: plum;
+  font-weight: bold;
+}
+
 header a:hover {
   color: #ccc;
   font-weight: bold;
@@ -86,7 +91,8 @@ header a:hover {
 /* showcase */
 #showcase {
   min-height: 400px;
-  background: url("../image/showcase.jpg") no-repeat 0 -400px; /*x axis*/
+  background: url("../image/awake_1.JPG") no-repeat 0 -350px; /*x axis, y axis*/
+  background-size: cover;
   text-align: center;
   color: #fff;
 }
@@ -167,12 +173,36 @@ ul#services li {
   background: #e6e6e6;
 }
 
+ul#services li img,
+ul#services li video {
+  width: 49%;
+}
+
 footer {
   padding: 20px;
   margin-top: 20px;
   color: #fff;
-  background-color: lightgreen;
+  background-color: plum;
   text-align: center;
+}
+
+/*treat animation*/
+.treat {
+  animation-name: diagonal-slide;
+  animation-duration: 5s;
+  animation-iteration-count: 10;
+}
+
+@keyframes diagonal-slide {
+  from {
+    left: 0;
+    top: 0;
+  }
+
+  to {
+    left: 100px;
+    top: 100px;
+  }
 }
 
 /*media querys*/

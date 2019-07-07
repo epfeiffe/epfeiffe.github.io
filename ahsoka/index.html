@@ -17,22 +17,22 @@
     <header>
       <div class="container">
         <div id="brand">
-          <h1><span class="highlight">Ahsoka's</span> Page</h1>
+          <h1>Ahsoka's Page</h1>
         </div>
         <nav>
           <ul>
             <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html" target="_blank">About</a></li>
-            <li><a href="service.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Photo Gallery</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <section id="showcase">
       <div class="container">
-        <h1>The Best Animal in the Neighborhood</h1>
+        <h1 class="collar">The Best Animal in the Neighborhood</h1>
         <p>
-          Ahsoka(pronounced AHH-SO-CA) is a hound and beagle mix. She howls at
+          Ahsoka (pronounced ahh-SO-ca) is a hound and beagle mix. She howls at
           anyone who approaches our house, but once she smells your shoes, she
           will love you!
         </p>
@@ -41,10 +41,15 @@
 
     <section id="newsletter">
       <div class="container">
-        <h1>Subscribe To Our Newsletter</h1>
+        <h1>Give Her a Treat</h1>
         <form>
-          <input type="email" placeholder="Enter Email..." />
-          <button type="submit" class="button_1">Subscribe</button>
+          <button type="button" class="button_1" onclick="addTreat()">
+            Click to Give Her a Treat
+          </button>
+          <button disabled="disabled" class="button_1">
+            Treats Given:
+            <span id="t"></span>
+          </button>
         </form>
       </div>
     </section>
@@ -52,37 +57,41 @@
     <section id="boxes">
       <div class="container">
         <div class="box">
-          <img src="./image/logo_html.png" alt="HTML Logo" />
-          <h3>HTML5 Markup</h3>
+          <img src="./image/IMG_3402.PNG" alt="Ahsoka Sitting" />
+          <h3>Part Beagle</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-            reprehenderit corporis repudiandae consectetur! Molestias ipsum
-            itaque rerum ipsa aspernatur alias.
+            Her large, flappy ears look like mini solar panels on her head. Add
+            her cute face and ability to learn tricks like roll over, wait, and
+            jump, and you have plenty of beagle characteristics.
           </p>
         </div>
         <div class="box">
-          <img src="./image/logo_css.png" alt="CSS Logo" />
-          <h3>CSS3 Styling</h3>
+          <img src="./image/IMG_2702.JPG" alt="Ahsoka on a walk" />
+          <h3>Part Hound</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-            reprehenderit corporis repudiandae consectetur! Molestias ipsum
-            itaque rerum ipsa aspernatur alias.
+            If you hear howling from the neighbor's house, is isn't a wolf! This
+            dog loves to utilize her vocal cords when meeting new guests, but
+            don't worry... it is only a precautionary measure done out of love
+            for the family.
           </p>
         </div>
         <div class="box">
-          <img src="./image/logo_brush.png" alt="Brush Logo" />
-          <h3>Graphic Design</h3>
+          <img src="./image/IMG_4569.JPG" alt="Ahsoka Sleeping" />
+          <h3>All Fun</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-            reprehenderit corporis repudiandae consectetur! Molestias ipsum
-            itaque rerum ipsa aspernatur alias.
+            In her spare time, Ahsoka enjoys going on walks, chasing
+            rodents(raccoons, squirrels, and chipmunks), and eating. Guided by
+            feral instincts, she roams outdoors and defends the lawn from the
+            evil people walking by.
           </p>
         </div>
       </div>
     </section>
 
     <footer>
-      <p>Acme Web Design, Copyright &copy; 2019</p>
+      <p>Part of the Pfeiffer family, Copyright &copy; 2019</p>
     </footer>
   </body>
 </html>
+
+<script src="index.js"></script>

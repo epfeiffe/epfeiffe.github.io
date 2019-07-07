@@ -17,13 +17,13 @@
     <header>
       <div class="container">
         <div id="brand">
-          <h1><span class="highlight">Ahsoka's</span> Page</h1>
+          <h1>Ahsoka's Page</h1>
         </div>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li class="current"><a href="service.html">Services</a></li>
+            <li class="current"><a href="service.html">Photo Gallery</a></li>
           </ul>
         </nav>
       </div>
@@ -31,10 +31,15 @@
 
     <section id="newsletter">
       <div class="container">
-        <h1>Subscribe To Our Newsletter</h1>
+        <h1>Give Her a Treat</h1>
         <form>
-          <input type="email" placeholder="Enter Email..." />
-          <button type="submit" class="button_1">Subscribe</button>
+          <button type="button" class="button_1" onclick="addTreat()">
+            Click to Give Her a Treat
+          </button>
+          <button disabled="disabled" class="button_1">
+            Treats Given:
+            <span id="t"></span>
+          </button>
         </form>
       </div>
     </section>
@@ -42,37 +47,41 @@
     <section id="main">
       <div class="container">
         <article id="main-col">
-          <h1 class="page-title">Services</h1>
+          <h1 class="page-title">Locations</h1>
           <ul id="services">
             <li>
-              <h3>Website Design</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Distinctio, delectus alias consectetur quasi eaque ducimus
-                minima, rem omnis, nobis incidunt quaerat sed. Autem
-                consequatur, nulla ipsam soluta unde culpa adipisci.
-              </p>
-              <p>Pricing $1000</p>
+              <h3>Bed</h3>
+              <img src="./image/DIMG6134.JPG" alt="Curled up" />
+              <img src="./image/DPFU0727.JPG" alt="Curled up" />
+              <img src="./image/FMRF3503.JPG" alt="Awake" />
+              <img src="./image/IMG_2862.JPG" alt="Sleeping" />
             </li>
             <li>
-              <h3>Website Maintenance</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Distinctio, delectus alias consectetur quasi eaque ducimus
-                minima, rem omnis, nobis incidunt quaerat sed. Autem
-                consequatur, nulla ipsam soluta unde culpa adipisci.
-              </p>
-              <p>Pricing $250</p>
+              <h3>Outside</h3>
+              <img src="./image/CVPM1500.JPG" alt="Woods" />
+              <img src="./image/IMG_2745.JPG" alt="Beach" />
+              <video controls>
+                <source src="./image/IMG_2968.MOV" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <video controls>
+                <source src="./image/IMG_2969.MOV" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <img src="./image/IMG_4569.JPG" alt="Deck" />
+              <img src="./image/IMG_4676.JPG" alt="Beach" />
+              <img src="./image/moss.jpg" alt="Moss" />
+              <img src="./image/IMG_3422.JPG" alt="Snow" />
             </li>
             <li>
-              <h3>Website Hosting</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Distinctio, delectus alias consectetur quasi eaque ducimus
-                minima, rem omnis, nobis incidunt quaerat sed. Autem
-                consequatur, nulla ipsam soluta unde culpa adipisci.
-              </p>
-              <p>Pricing $500</p>
+              <h3>Family</h3>
+              <video controls>
+                <source src="./image/DOHN5298.MOV" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <img src="./image/IMG_2672.JPG" alt="Car" />
+              <img src="./image/IMG_3405.PNG" alt="Mom" />
+              <img src="./image/IMG_4147.JPG" alt="Brothers" />
             </li>
           </ul>
         </article>
@@ -101,7 +110,9 @@
     </section>
 
     <footer>
-      <p>Acme Web Design, Copyright &copy; 2019</p>
+      <p>Part of the Pfeiffer family, Copyright &copy; 2019</p>
     </footer>
   </body>
 </html>
+
+<script src="index.js"></script>
