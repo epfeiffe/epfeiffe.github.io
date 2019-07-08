@@ -3,7 +3,7 @@ let count = 0;
 
 if (
   sessionStorage.getItem("c") !== null &&
-  sessionStorage.getItem("c") !== "undefined"
+  typeof sessionStorage.getItem("c") !== "undefined"
 ) {
   count = JSON.parse(sessionStorage.getItem("c"));
 } // if we previously saved the variable

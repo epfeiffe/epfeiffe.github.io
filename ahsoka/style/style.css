@@ -91,7 +91,7 @@ header a:hover {
 /* showcase */
 #showcase {
   min-height: 400px;
-  background: url("../image/awake_1.JPG") no-repeat 0 -350px; /*x axis, y axis*/
+  background: url('../image/awake_1.JPG') no-repeat 0 -350px; /*x axis, y axis*/
   background-size: cover;
   text-align: center;
   color: #fff;
@@ -123,7 +123,7 @@ header a:hover {
   margin-top: 15px;
 }
 
-#newsletter input[type="email"] {
+#newsletter input[type='email'] {
   padding: 4px;
   height: 25px;
   width: 250px;
@@ -152,8 +152,8 @@ aside#sidebar {
   margin-top: 10px;
 }
 
-aside#sidebar .quote input,
-aside#sidebar .quote textarea {
+aside#sidebar #woof input,
+aside#sidebar #woof textarea {
   width: 90%;
   padding: 5px;
 }
@@ -178,6 +178,21 @@ ul#services li video {
   width: 49%;
 }
 
+.error {
+  background: orangered;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+}
+
+#users {
+  list-style: none;
+}
+
+#users li {
+  margin-bottom: 20px;
+}
+
 footer {
   padding: 20px;
   margin-top: 20px;
@@ -186,7 +201,7 @@ footer {
   text-align: center;
 }
 
-/*treat animation*/
+/*treat animation(unfinished)*/
 .treat {
   animation-name: diagonal-slide;
   animation-duration: 5s;
@@ -229,14 +244,14 @@ footer {
   }
 
   #newsletter button,
-  .quote button {
+  #woof button {
     display: block;
     width: 100%;
   }
 
-  #newsletter form input[type="email"],
-  .quote input,
-  .quote textarea {
+  #newsletter form input[type='email'],
+  #woof input,
+  #woof textarea {
     width: 100%;
     margin-bottom: 5px;
   }

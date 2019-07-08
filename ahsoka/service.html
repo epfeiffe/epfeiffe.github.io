@@ -88,22 +88,28 @@
 
         <aside id="sidebar">
           <div class="dark">
-            <h3>Get a Quote</h3>
-            <form class="quote">
+            <h3>Get a Woof</h3>
+            <form id="woof">
+              <div class="errorMsg"></div>
               <div>
                 <label>Name</label><br />
-                <input type="text" placeholder="Name" />
+                <input type="text" id="name" placeholder="Name" />
               </div>
               <div>
                 <label>Email</label><br />
-                <input type="email" placeholder="Email Address" />
+                <input type="email" id="email" placeholder="Email Address" />
               </div>
               <div>
                 <label>Message</label><br />
-                <textarea placeholder="Message"></textarea>
+                <textarea placeholder="Message" id="message"></textarea>
               </div>
-              <button class="button_1" type="submit">Send</button>
+              <input class="button_1" type="submit" value="Submit"></input>
             </form>
+          </div>
+        </aside>
+        <aside id="sidebar">
+          <div class="usersBox">
+              <ul id="users"></ul>
           </div>
         </aside>
       </div>
@@ -116,3 +122,4 @@
 </html>
 
 <script src="index.js"></script>
+<script src="service.js"></script>
