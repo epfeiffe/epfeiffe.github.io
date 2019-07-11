@@ -66,7 +66,8 @@ let quotes = [
   'Just keep playing. -John Fish',
   'The purpose of the scientific method is to make sure you do not think something is true that is not, and you do not think something that is not true is. -Neil Degrass Tyson',
   'To debate something implies that whoever is most convincing is correct. There is too much charisma involved. -Neil Degrass Tyson',
-  'We need to be going on offense more in our lives and not focusing on defense as much. -Gary Vaynerchuk'
+  'We need to be going on offense more in our lives and not focusing on defense as much. -Gary Vaynerchuk',
+  "The odds of being alive are so small. There's nothing you'll ever accomplish thats more remarkable than the fact that you have a chance to accomplish something. -Gary Vaynerchuk"
 ];
 
 // Show Time
@@ -210,21 +211,12 @@ focus.addEventListener('blur', setFocus);
 
 // Set Quote
 function setQuote() {
-  const today = new Date(),
-    hour = today.getHours();
-  let index = 0;
-  if (localStorage.getItem('index') !== null) {
-    index = localStorage.getItem('index');
-  }
-  if (hour === 0) {
-    ++index;
-    if (quotes[index] === null || typeof quotes[index] === 'undefined') {
-      index = 0;
-    }
-    localStorage.setItem('index', index);
-  }
-
-  quote.textContent = quotes[index];
+  // Some math to pick a quote based on the day using getTime()
+  let dtNow = new Date();
+  let offset = dtNow.getTimezoneOffset() * 60000; // automatically adjust for user timezone
+  let now = dtNow.getTime() - offset;
+  let day = Math.floor(now / 86400000); // The number of 'local' days since Jan 1, 1970
+  quote.textContent = quotes[day % quotes.length];
 }
 
 // Run
