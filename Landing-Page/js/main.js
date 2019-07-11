@@ -218,6 +218,9 @@ function setQuote() {
   }
   if (hour === 0) {
     ++index;
+    if (quotes[index] === null || typeof quotes[index] === 'undefined') {
+      index = 0;
+    }
     localStorage.setItem('index', index);
   }
 
