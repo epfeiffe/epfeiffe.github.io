@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Welcome</title>
   </head>
-  <body
-    style="background-image:url(https://images.unsplash.com/photo-1520190282873-afe1285c9a2a);"
-  >
-    <div class="overlay">
-      <h1>Hello, Emerson</h1>
-    </div>
+  <body>
+    <div id="date"></div>
+    <time id="time"></time>
+    <h1 class="middle">
+      <span id="greeting"></span>
+      <span id="name" contenteditable="true"></span>
+    </h1>
+
+    <h2 class="fade">What Is Your Current Focus?</h2>
+    <h2 class="fade" id="focus" contenteditable="true"></h2>
   </body>
+
+  <h1 id="quoteTop">Quote of the Day</h1>
+  <h2 id="quote"></h2>
 </html>
+<script src="js/main.js"></script>

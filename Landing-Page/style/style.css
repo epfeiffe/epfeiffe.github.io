@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  color: black;
+}
+
+#time {
+  font-size: 8rem;
+}
+
+#date {
+  font-size: 3rem;
+}
+
+.middle {
+  margin-bottom: 3rem;
+}
+
+.fade {
+  margin-bottom: 0.5rem;
+  opacity: 0.6;
+}
+
+#quoteTop {
+  position: fixed;
+  bottom: 10%;
+}
+
+#quote {
+  position: fixed;
+  bottom: 6%;
+}
+
+@media (max-width: 700px) {
+  #time {
+    font-size: 6rem;
+  }
+}
