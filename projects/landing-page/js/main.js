@@ -68,7 +68,9 @@ let quotes = [
   'To debate something implies that whoever is most convincing is correct. There is too much charisma involved.   -Neil Degrass Tyson',
   'We need to be going on offense more in our lives and not focusing on defense as much.   -Gary Vaynerchuk',
   "The odds of being alive are so small. There's nothing you'll ever accomplish thats more remarkable than the fact that you have a chance to accomplish something.   -Gary Vaynerchuk",
-  'The intent of content is the variable of success. -Gary Vaynerchuk'
+  'The intent of content is the variable of success. -Gary Vaynerchuk',
+  'Success is earned and re-earned every single day. -Joshua Fluke',
+  "There isn't time, so brief is life, for bickerings, apologies, heartburnings, callings to account. There is only time for loving, and but an instant, so to speak, for that. -Mark Twain"
 ];
 
 // Show Time
