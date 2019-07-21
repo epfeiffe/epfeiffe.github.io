@@ -85,3 +85,13 @@ footer {
     /* TODO change this? */
   }
 }
+
+@media (max-width: 700px) {
+  body {
+    margin: 30px 30px;
+  }
+
+  footer {
+    margin-top: 1rem;
+  }
+}
