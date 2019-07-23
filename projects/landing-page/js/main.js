@@ -111,53 +111,53 @@ function set() {
     greeting.textContent = 'Good Morning';
 
     if (hour < 8) {
-      document.body.style.backgroundImage = "url('../img/night/one.jpg')";
+      document.body.style.backgroundImage = "url('./img/night/one.jpg')";
       document.body.style.color = 'white';
     } else if (hour == 8) {
-      document.body.style.backgroundImage = "url('../img/morning/lake.jpg')";
+      document.body.style.backgroundImage = "url('./img/morning/lake.jpg')";
       document.body.style.color = 'white';
     } else if (hour == 9) {
-      document.body.style.backgroundImage = "url('../img/morning/woods_1.jpg')";
+      document.body.style.backgroundImage = "url('./img/morning/woods_1.jpg')";
       document.body.style.color = 'white';
     } else if (hour == 10) {
-      document.body.style.backgroundImage = "url('../img/morning/woods_2.jpg')";
+      document.body.style.backgroundImage = "url('./img/morning/woods_2.jpg')";
       document.body.style.color = 'orange';
     } else if (hour == 11) {
-      document.body.style.backgroundImage = "url('../img/morning/woods_3.jpg')";
+      document.body.style.backgroundImage = "url('./img/morning/woods_3.jpg')";
       document.body.style.color = 'red';
     }
   } else if (hour < 18) {
     greeting.textContent = 'Good Afternoon';
     if (hour == 12) {
-      document.body.style.backgroundImage = "url('../img/day/flowers.jpg')";
+      document.body.style.backgroundImage = "url('./img/day/flowers.jpg')";
       document.body.style.color = 'purple';
     } else if (hour == 13) {
-      document.body.style.backgroundImage = "url('../img/day/mountain.jpg')";
+      document.body.style.backgroundImage = "url('./img/day/mountain.jpg')";
       document.body.style.color = 'pink';
     } else if (hour == 14) {
-      document.body.style.backgroundImage = "url('../img/day/pink_tree.jpg')";
+      document.body.style.backgroundImage = "url('./img/day/pink_tree.jpg')";
       document.body.style.color = 'blue';
     } else if (hour == 15) {
-      document.body.style.backgroundImage = "url('../img/day/desert_1.jpg')";
+      document.body.style.backgroundImage = "url('./img/day/desert_1.jpg')";
       document.body.style.color = 'green';
     } else if (hour == 16) {
-      document.body.style.backgroundImage = "url('../img/day/desert_2.jpg')";
+      document.body.style.backgroundImage = "url('./img/day/desert_2.jpg')";
       document.body.style.color = 'indigo';
     } else if (hour == 17) {
-      document.body.style.backgroundImage = "url('../img/day/coast.jpg')";
+      document.body.style.backgroundImage = "url('./img/day/coast.jpg')";
       document.body.style.backgroundPositionY = '-275px';
       document.body.style.color = 'yellow';
     }
   } else {
     greeting.textContent = 'Good Evening';
     if (hour == 18) {
-      document.body.style.backgroundImage = "url('../img/night/two.jpg')";
+      document.body.style.backgroundImage = "url('./img/night/two.jpg')";
       document.body.style.color = 'white';
     } else if (hour == 19) {
-      document.body.style.backgroundImage = "url('../img/night/three.jpg')";
+      document.body.style.backgroundImage = "url('./img/night/three.jpg')";
       document.body.style.color = 'white';
     } else if (hour > 19) {
-      document.body.style.backgroundImage = "url('../img/night/four.jpg')";
+      document.body.style.backgroundImage = "url('./img/night/four.jpg')";
       document.body.style.color = 'white';
     }
   }

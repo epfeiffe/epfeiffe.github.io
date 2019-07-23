@@ -1,45 +1,67 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Quicksand", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100vh;
-    color: black;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  color: black;
 }
 
 #time {
-    font-size: 6rem;
+  font-size: 6rem;
 }
 
 #date {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .middle {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .fade {
-    margin-bottom: 0.5rem;
-    opacity: 0.6;
+  margin-bottom: 0.5rem;
+  opacity: 0.6;
 }
 
 #quote {
-    position: fixed;
-    bottom: 6%;
-    padding: 0 100px;
+  position: fixed;
+  bottom: 6%;
+  padding: 0 100px;
 }
 
 @media (max-width: 700px) {
-    #time {
-        font-size: 6rem;
-    }
+  #time {
+    font-size: 6rem;
+  }
+}
+
+@media (max-height: 600px) {
+  #time {
+    font-size: 4rem;
+  }
+
+  #date {
+    font-size: 2rem;
+  }
+
+  .middle {
+    margin-bottom: 2rem;
+  }
+
+  .fade {
+    font-size: 1rem;
+  }
+
+  #quote {
+    font-size: 1rem;
+  }
 }
