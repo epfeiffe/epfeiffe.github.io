@@ -15,7 +15,7 @@
 }
 
 h1 {
-  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 .project {
@@ -27,6 +27,24 @@ h1 {
   width: 600px;
   height: 400px;
   margin: 10px auto;
+}
+
+.haiti {
+  width: 100%;
+}
+
+.project img {
+  margin: 0 0 20px 20px;
+  object-fit: contain;
+  width: calc(25% - 20px);
+  max-height: auto;
+  border-radius: 2rem;
+}
+
+.project video {
+  margin: 0 0 20px 20px;
+  width: calc(25% - 100px);
+  height: 420px;
 }
 
 @media (max-width: 1400px) {
