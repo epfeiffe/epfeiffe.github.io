@@ -70,7 +70,14 @@ let quotes = [
   "The odds of being alive are so small. There's nothing you'll ever accomplish thats more remarkable than the fact that you have a chance to accomplish something.   -Gary Vaynerchuk",
   'The intent of content is the variable of success. -Gary Vaynerchuk',
   'Success is earned and re-earned every single day. -Joshua Fluke',
-  "There isn't time, so brief is life, for bickerings, apologies, heartburnings, callings to account. There is only time for loving, and but an instant, so to speak, for that. -Mark Twain"
+  "There isn't time, so brief is life, for bickerings, apologies, heartburnings, callings to account. There is only time for loving, and but an instant, so to speak, for that. -Mark Twain",
+  'Roadblocks are self imposed based on judgement from other people. -Gary V',
+  'Sometimes its the people no one can imagine anything of who do the things no one can imagine. -Alan Turing',
+  'Rather than love, than money, thane fame, give me truth. -Henry David Thoreau',
+  'We live who we believe we are. -Tony Robbins',
+  'Raise your standard. -Tony Robbins',
+  'Discipline weighs ounces. Regret weighs tons. -Tony Robbins',
+  "Whenever you find yourself on the side of the majority, it's time to pause and reflect. -Mark Twain"
 ];
 
 // Show Time
