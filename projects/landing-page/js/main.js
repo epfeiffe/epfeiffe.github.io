@@ -77,8 +77,38 @@ let quotes = [
     'We live who we believe we are. -Tony Robbins',
     'Raise your standard. -Tony Robbins',
     'Discipline weighs ounces. Regret weighs tons. -Tony Robbins',
-    "Whenever you find yourself on the side of the majority, it's time to pause and reflect. -Mark Twain"
-];
+    "Whenever you find yourself on the side of the majority, it's time to pause and reflect. -Mark Twain",
+    "If it doesn't challenge you, it doesn't change you. -Fred DeVito",
+    "Day by day, what you choose, what you think and what you do is who you become. -Heraclitus",
+    "Gratitude can transform common days into thanksgivings, turn routine job into joy, and change ordinary opportunities into blessings. -William Arthur Ward",
+    "Be thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough. -Oprah Winfrey",
+    "The measure of success is happiness and peace of mind. -Bobby Davro",
+    "Surround yourself with people that inspire you and you will not only grow - you will soar. -Mimi Ikonn",
+    "You can rise up from anything. You can completely recreate yourself. All that matters is that you decide today and never look back. -Idil Ahmed",
+    "Happiness is an inside job. Don't assign anyone else that much power over your life. -Mandy Hale",
+    "Being positive in a negative situation is not naive. It is leadership. -Ralph Marston",
+    "Life is an echo. What you send out comes back. What you sow you reap. What you give you get. What you see in others exists in you. -Zig Ziglar",
+    "Happiness is what you think, what you say, and what you do are in harmony. -Mahatma Gandhi",
+    "If you see something beautiful in someone, speak it. -Ruthie Lindsey",
+    "We all have two lives. The second one starts when we realize we only have one. -Tom Hiddleston",
+    "Attention is the most basic form of love. By paying attention we let ourselves be touched by life, and our hearts naturally become more open and engaged. -Tara Brach",
+    "Put your heart, mind and soul into your smallest acts. This is the secret of success. -Swami Sivananda",
+    "What we do every day matters more than what we do once in a while. -Gretchen Rubin",
+    "If I am not good to myself, how can I expect anyone else to be good to me? -Maya Angelou",
+    "The beauty of you is how you wear who you are. -Timothy Egart",
+    "Beauty is about being comfortable in your own skin. It's about knowing and accepting who you are. -Ellen Degeneres",
+    "When you are grateful, fear disappears and abundance appears. -Tony Robbins",
+    "Wherever you are -- be all there. -Jim Elliot",
+    "Be kind, whenever possible. It is always possible. -Dalai Lama",
+    "To be a star, you must shine your own light. -Napoleon Hill",
+    "Today is your opportunity to build the tomorrow you want. -Ken Poirot",
+    "You have to believe in yourself. That's the secret. -Charlie Chaplin",
+    "When we seek to discover the best in others, we somehow bring out the best in ourselves. -William Arthur Ward",
+    "Never give up, for that is just the place and time that the tide will turn. -Harriet Beecher Stowe",
+    "Far too many people are looking for the right person, instead of trying to be the right person. -Gloria Steinem",
+    "I keep my ideals, because in spite of everything I still believe that people are really good at heart. -Anne Frank",
+    "What a wonderful life I've had! I only wish I'd realized it sooner. -Sidonie-Gabrielle Colette (135)"
+    ];
 
 // Show Time
 function showTime() {
