@@ -88,7 +88,7 @@ let quotes = [
     "Happiness is an inside job. Don't assign anyone else that much power over your life. -Mandy Hale",
     "Being positive in a negative situation is not naive. It is leadership. -Ralph Marston",
     "Life is an echo. What you send out comes back. What you sow you reap. What you give you get. What you see in others exists in you. -Zig Ziglar",
-    "Happiness is what you think, what you say, and what you do are in harmony. -Mahatma Gandhi",
+    "Happiness is when what you think, what you say, and what you do are in harmony. -Mahatma Gandhi",
     "If you see something beautiful in someone, speak it. -Ruthie Lindsey",
     "We all have two lives. The second one starts when we realize we only have one. -Tom Hiddleston",
     "Attention is the most basic form of love. By paying attention we let ourselves be touched by life, and our hearts naturally become more open and engaged. -Tara Brach",
