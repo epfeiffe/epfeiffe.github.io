@@ -1,25 +1,17 @@
 .category {
   display: flex;
   flex-wrap: wrap;
-  grid-gap: 20px;
 }
 
 .section {
   background: var(--primary);
-  display: flex;
-  align-items: center;
-  justify-items: center;
   box-shadow: var(--shadow);
   padding: 1.5rem;
   border-radius: 2rem;
-  grid-column: 30%;
 }
 
 .article {
   background: var(--primary);
-  display: grid;
-  align-items: center;
-  justify-items: center;
   box-shadow: var(--shadow);
   box-sizing: border-box;
   padding: 1.5rem;
