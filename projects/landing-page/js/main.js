@@ -66,7 +66,6 @@ let quotes = [
     'Just keep playing.   -John Fish',
     'The purpose of the scientific method is to make sure you do not think something is true that is not, and you do not think something that is not true is.   -Neil Degrass Tyson',
     'To debate something implies that whoever is most convincing is correct. There is too much charisma involved.   -Neil Degrass Tyson',
-    'We need to be going on offense more in our lives and not focusing on defense as much.   -Gary Vaynerchuk',
     "The odds of being alive are so small. There's nothing you'll ever accomplish thats more remarkable than the fact that you have a chance to accomplish something.   -Gary Vaynerchuk",
     'The intent of content is the variable of success. -Gary Vaynerchuk',
     'Success is earned and re-earned every single day. -Joshua Fluke',
@@ -107,7 +106,8 @@ let quotes = [
     "Never give up, for that is just the place and time that the tide will turn. -Harriet Beecher Stowe",
     "Far too many people are looking for the right person, instead of trying to be the right person. -Gloria Steinem",
     "I keep my ideals, because in spite of everything I still believe that people are really good at heart. -Anne Frank",
-    "What a wonderful life I've had! I only wish I'd realized it sooner. -Sidonie-Gabrielle Colette (135)"
+    "What a wonderful life I've had! I only wish I'd realized it sooner. -Sidonie-Gabrielle Colette (135)",
+    "Instead of using reasoning to come to conclusions, we use conclusions to come to reasons. -Michael Stevens"
     ];
 
 // Show Time
