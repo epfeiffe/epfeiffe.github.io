@@ -124,7 +124,7 @@ let quotes = [
     "I much prefer the sharpest criticism of a single intelligent person to the thoughtless approval of the masses. -Johannes Kepler",
     "The only safe thing is to take a chance. -Elaine May",
     "Basic facts tend always to be those most easily overlooked. -Doris Lessing",
-    "The highest result of education is tolerance. -Helen Keller"
+    "The highest result of education is tolerance. -Helen Keller",
     "Life is mostly an execise in being something other than what we used to be while remaining fundamentally-and sometiems maddeningly-who we are. -Meghan Daum",
     "To be aware of limitations is already to be beyond them. -Georg Wilhelm Friedrich Hegel",
     "We think, I'm not a fool today. I've learned my lesson. I was a fool yesterday but not this morning. Then tomorrow we find out that, yes, we were a fool today too. -Ray Bradbury",
