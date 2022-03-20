@@ -135,7 +135,17 @@ let quotes = [
     "A teacher who can arouse a feeling for one single good action, for one single good poem, accomplishes more than he who gills our memory with rows on rows of natural objects, classified with name and form. -Johann Wlfgang von Goethe",
     "An intellectual is someone whose mind watches itself. -Albert Camus",
     "Failure is the condiment that gives success its flavor. -Truman Capote",
-    "Don't try to solve serious matters in the middle of the night. -Philip K. Dick"
+    "Don't try to solve serious matters in the middle of the night. -Philip K. Dick",
+    "The best way to help yourself is to help others, even if we are absolutely exhausted. -Simon Sinek",
+    "Lying is like taking a debt. You can get what you want in the moment, but in the long run you have to pay it off with interest. -Charlie Houpert",
+    "How can I make today the most fun for me? -Benjamin Altman",
+    "The best definition for love is giving someone the power to destroy you and trusting they won't use it. -Simon Sinek",
+    "Human beings are funny. We tend to speak in the order of our priorities. -Simon Sinek",
+    "In the military they have human skills. In business we have soft skills. -Simon Sinek",
+    "We often use news sources and opinions to distract ourselves from the real sacrifices we can make in our own lives to be helpful. -Charlie Houpert
+    "There is a big defferenct between listening and waiting for your turn to speak. -Simon Sinek",
+    "If you don't listen to someone, you are telling them they don't exist. -Jean Oelwang",
+    "We need to learn how to want what we have, not to have what we want in order to get steady and stable happiness. -Tenzin Gyatso (14th Dalai Lama)",
     ];
 
 // Show Time
