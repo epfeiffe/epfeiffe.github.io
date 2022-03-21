@@ -142,7 +142,7 @@ let quotes = [
     "The best definition for love is giving someone the power to destroy you and trusting they won't use it. -Simon Sinek",
     "Human beings are funny. We tend to speak in the order of our priorities. -Simon Sinek",
     "In the military they have human skills. In business we have soft skills. -Simon Sinek",
-    "We often use news sources and opinions to distract ourselves from the real sacrifices we can make in our own lives to be helpful. -Charlie Houpert
+    "We often use news sources and opinions to distract ourselves from the real sacrifices we can make in our own lives to be helpful. -Charlie Houpert",
     "There is a big defferenct between listening and waiting for your turn to speak. -Simon Sinek",
     "If you don't listen to someone, you are telling them they don't exist. -Jean Oelwang",
     "We need to learn how to want what we have, not to have what we want in order to get steady and stable happiness. -Tenzin Gyatso (14th Dalai Lama)",
