@@ -146,6 +146,7 @@ let quotes = [
     "There is a big defferenct between listening and waiting for your turn to speak. -Simon Sinek",
     "If you don't listen to someone, you are telling them they don't exist. -Jean Oelwang",
     "We need to learn how to want what we have, not to have what we want in order to get steady and stable happiness. -Tenzin Gyatso (14th Dalai Lama)",
+    "An expert is a person who has made all the mistakes that can be made in a very narrow field. -Niels Bohr",
     ];
 
 // Show Time
